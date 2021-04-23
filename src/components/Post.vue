@@ -3,17 +3,18 @@
         <h1>One Post Placeholder</h1>
         <h1>Post Title</h1>
         <p>Post Text</p>
-        <div>
-            <span>Post Date</span>
-            <span>Username</span>
-            <span>User Image</span>
-        </div>
+        <PostData />        
     </div>
 </template>
 
 <script>
+import PostData from './PostData'
+
 export default {
-    name: 'Post'
+    name: 'Post',
+    components: {
+        PostData
+    }
 }
 </script>
 
