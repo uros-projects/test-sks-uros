@@ -1,10 +1,18 @@
 <template>
-  <h1>Test</h1>
+    <div>
+        <h1>Post List Placeholder</h1>
+        <Post />
+    </div>  
 </template>
 
 <script>
+import Post from './Post'
+
 export default {
-    name: 'PostList'
+    name: 'PostList',
+    components: {
+        Post
+    }
 }
 </script>
 

@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <PostList />
+        <Home />
     </div>
 </template>
 
 
 <script>
-import PostList from './components/PostList'
+import Home from './components/Home'
 
 export default {
   name: 'App',
   components: {
-    PostList
+    Home
   }
 }
 </script>
